@@ -1,0 +1,5 @@
+public class demoRep {
+ public set<account> myAccount(){
+return [select id,name from Account]
+ }
+}
